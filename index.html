@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Section</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<style>
+  .about-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about-section img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    color: #333;
+  }
+
+  /* Additional CSS for Projects Section */
+.projects-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
+}
+.card-img-top {
+  max-height: 180px;
+  object-fit: cover; /* This makes sure the image covers the area properly */
+}
+.card-body {
+  padding: 15px;
+}
+.card-title {
+  font-size: 1.25rem;
+}
+.card-text {
+  margin-bottom: 15px;
+}
+
+/* Additional CSS for Skills Section */
+.skills-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.skills-section .card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.skills-section .card-img-top {
+  padding: 20px;
+  background-color: #f8f9fa; 
+  height: 180px; /* Fixed height for consistency */
+  object-fit: contain; /* This will make sure the image is scaled properly within the container */
+}
+.skills-section .card-body {
+  padding: 15px;
+}
+.skills-section .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.skills-section .btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+.skills-section .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+
+/* Additional CSS for Certificates Section */
+.certificates-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.certificates-section .card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.certificates-section .card-img-top {
+  padding: 20px; 
+  background-color: #f8f9fa;
+  height: 180px; /* Fixed height for consistency */
+  object-fit: contain; /* This will make sure the image is scaled properly within the container */
+}
+.certificates-section .card-body {
+  padding: 15px;
+}
+.certificates-section .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.certificates-section .btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+.certificates-section .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Additional CSS for Contact Section */
+.contact-section {
+  padding: 50px 0;
+}
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.social-icon {
+  width: 50px; /* Size of icons */
+  margin-bottom: 10px;
+}
+/* Hover effect for icons */
+.social-icon:hover {
+  opacity: 0.7;
+}
+/* Style for links in the Contact section */
+.contact-section a {
+  color: #fff;
+  text-decoration: none; /* Removes underline from links */
+  display: inline-block; /* Allows for margin on the bottom */
+  margin-bottom: 10px;
+}
+.contact-section a:hover {
+  color: #ddd; /* Colour when hovering over the link */
+}
+
+/* CSS for Sticky Navbar */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+body { 
+  padding-top: 56px;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style for navigation bar links */
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Slightly lighter white when hovering over links */
+}
+
+/* Media query for responsive navbar collapsing */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #343a40; /* Same as navbar color for seamless look */
+  }
+}
+
+
+</style>
+
+</head>
+<body>
+
+<section id='about' class="about-section">
+  <div class="container">
+    <h2>About</h2>
+    <img src="images/about/Typewriter.jpeg" alt="About Me">
+    <p>My name is Stephen Barratt, a Computer Science graduate and aspiring Data Analyst.</p>
+        <p>In 2021, I graduated from the University of Dundee, with a Computer Science BSc (Hons) Degree. This was towards the end of the Cornonavirus pandemic and I was unsure which career path I wanted to persue. I decided for that reason to instead persue and develop a skill that would be benefical no matter which career path I ultimately decided to go down. The skill I choose was communication. I found a sales job as an Independent Sales Advisor, going door to door selling the services of BT (British Telecom) Broadband to the general public. This was a commision only role, meaning that that I only got paid for the sales I would make and there was no base salary. This payment structure helped me to develop a great work ethic, understanding the harder I worked the more I would get out. Talking to many different people, from a variety of backgrounds and walks of life, six days a week, allowed me to develop my communication skills and ultimately achieve what I had always wanted to next.</p>
+          <p>A dream of mine has always been to travel and explore. In July 2023 that dream became a reality, as the Covid restrictions had been lifted and I finally had the opportunity to experience more of the world. I solo travelled South East Asia for six months an experience of a lifetime and something I can only attribute being able to do with the confidence and interpersonal skills gained from my sales role. I then spent the next two years on a working holiday visa in Australia, living in two different cities: Sydney and Melbourne. I worked a number of different jobs along the way, such as a Warehouse storeperson and for the most part in hospitality, as a grill chef. These jobs allowed me to work in different environments and as a part of a team and further develop skills such as teamwork.  </p>  
+          <p><b>Why become a Data Analyst?</b></p>
+          <p>From an early age we learn a lot about language and mathematics. In language we learn how to string words together, to form sentences turning them into stories. In mathematics, we learn how to make sense of numbers. Although it is rare that these two aspects ever meet; no one ever teaches us how to tell stories with numbers. With improvements in AI and Technology it has enabled us to amass increasing amounts of data and as a result there is a growing demand to make sense of this data. Knowing there is a story in the data but the tools don't know what the story is, this is what I find most interesting as it allows you as the analyst or communicator of the information to bring the story to life for the audience.  </p>
+        <p><b>My Roadmap to becoming a Data Analyst</b></p>
+              <p>The first step on my roadmap to becoming a data analyst was to complete the CompTia Data + Qualification accredited by CompTIA. This is a professional international industry-recognised qualification, recommended for those with 18-24 months job experience as a Data Analyst. Throughout the learning process I developed a project all the way from the data concepts stage through to the final visualisation, to help reinforce the knowledge learnt and to prepare for the exam. The project was called ‘Need a Movie Recommendation?’ and can be found in the Projects section below. Upon passing the exam, it provided me with a great deal of confidence and the qualification taught me the essential skills of a Data Analyst such as data mining, manipulating data, visualising data and reporting on data. </p>
+                <p>The next step on my roadmap was to develop the necessary technical skills, to ensure that I am suitably employable as a data analyst. These skills include the following: Microsoft Excel, Databases, Statistics, Python and Power BI.</p>
+                  <p>I started by developing my knowledge of Microsoft Excel, first I read the book "Data Analysis in Microsoft Excel" by Alex Holloway. This provided me with a beginner to intermediate understanding of the platform as well as formulas and functions. I then enrolled in multiple online courses by XelPlus, these are taught by Leila Gharani, winner of the Microsoft Excel MVP Award. I saw a drastic improvement in my Excel skills after completing these courses, the teaching style allowed me to practice as I learnt, completing challanges and quizzes to really reinforce the knowledge. I stared by learning the "Excel Essentials" before moving onto "Pivot Table Mastery" and finally "Buisness Charts in Excel". Following the completion of these courses my confidence in Excel grew tenfold and I was able to create my own projects and my first dashboard which can be found below in the projects section "Dashboard to display staff metrics". </p>
+                    <!--<p> I then decided to improve my knowledge of Microsoft Office, a skill that once set one apart on a resume and has now become a minimum expectation for most employers. So I decided to study for the ms-900 exam to become qualified in Microsoft Office, I then wanted to go above and beyond to separate myself apart from others. So I decided to focus on telling stories with data to give myself an edge and position myself for success in almost any role. To do this I began by reading the book "Storytelling with data" by Cole Nussbaumer Knaflic a manager of Google's analytics team.</p>-->
+        <p><b>Why I built a Portfolio Website?</b></p>
+            <p>As most of my education in Data Analysis has come from books and online platforms. I wanted to give myself practical experience, applying the knowledge I have learnt, to real world data. Undertaking a self-led Data Analysis project requires a significant amount of independent learning, which can help to develop critical thinking and self discipline, two valuable skills in any aspect of life.
+              <p>The goal of the portfolio is to demonstrate to employers my ability to work with data and solve problems. During the process of working through different projects and populating the portfolio, the website has become more like a journal for myself, to see the progress that I have made and the skills that I have developed. Providing a source of motivation to continue to learn and grow my skillset.</p>
+                  <!-- <p>The topics of the projects chosen are ones that I am interested in, I did this to make the process enjoyable and rewarding. I have always had an interest in health and fitness, playing multiple different team sports. In Australia I learnt about the sport of Aussie Rules and was amazed at the number of goals per game, this is where the idea of the project “Aussie Rules – How accurately can you predict the first goalscorer” came from.</p> -->
+              </p>
+    <p>You can view my Projects below. I have added a summary report to provide insight as well as linking my GitHub repositories.</p>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section bg-light" id="projects">
+  <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/1.jpeg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Report for effective decision-making based on hotel bookings</h5>
+            <p class="card-text">This is my first project where I took on the role of Data Analyst for a hotel company.
+              <p><b>The Objective: </b>To help the Senior Management team with effective decision-making, so the company can meet its strategic goals. </p>
+            <p><b>Skills Demonstrated:</b></p>
+              <p>Excel, Formulas, Pivot Tables, Charts, Data Visualisation</p>
+              <p></p>
+            </p>
+            <a href="https://github.com/stephenjbarratt/Hotel-Demand-Booking-Dataset/blob/a273f4d478588646263222d51f49382183242a3b/Hotel%20Bookings%20Dashboard.pdf" class="btn btn-primary">Report</a>
+            <a href="https://github.com/stephenjbarratt/Hotel-Demand-Booking-Dataset/blob/a273f4d478588646263222d51f49382183242a3b/Specification.pdf" class="btn btn-secondary">Specification</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/10.jpeg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Dashboard To Display Staff Metrics</h5>
+            <p class="card-text">In this project I took on the role of a member of the HR Department for an American Company.
+              <p><b>The Objective: </b>The manager has asked for a report outling serveral key staff metrics from an employee dataset. Optimally the report will update with a single click.</p>
+            <p><b>Skills Demonstrated:</b></p>
+              <p>Excel, Pivot Tables, Charts, Sliders, Dashboards</p>
+              <p></p>
+            <a href="https://github.com/stephenjbarratt/Dashboard-for-HR-Department-Manager/blob/31e6046d0dd2c8d6af9e89b0ad44012e3e060696/Dashboard.pdf" class="btn btn-primary">Dashboard</a>
+            <a href="https://github.com/stephenjbarratt/Dashboard-for-HR-Department-Manager.git" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/4.jpeg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Analysis Of Data Analyst Job Market
+            </h5>
+            <p class="card-text">The project contains real data on job postings for data roles in 2023, with insights on job titles, locations, salaries, skills and other employment related information.
+              <p><b>The Objective: </b>Explore the UK job market focusing on Data Analysis roles highlighting: Highest paid jobs, in demand skills, skills related to higher salaries and when job listings are most frequent.</p>
+            <p><b>Skills Demonstrated:</b></p>
+              <p>SQL, PostgreSQL, Excel</p>
+            <a href="https://github.com/stephenjbarratt/SQL_Project_Data_Analysis_Jobs/blob/58dd5eef17486a6684dae80c177a94236835cc53/README.md" class="btn btn-primary">Written Report</a>
+            <a href="https://github.com/stephenjbarratt/SQL_Project_Data_Analysis_Jobs/tree/58dd5eef17486a6684dae80c177a94236835cc53/sql_queries" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!--Projects Section
+ <section id="projects" class="projects-section bg-light" id="projects">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/1.jpeg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Aussie Rules - How accurately can you predict the First Goalscorer?</h5>
+            <p class="card-text">This is my first project where I took on the role of Data Analyst for a hotel company.
+              <p><b>The Objective: </b>To help the Senior Management team with effective decision-making, so the company can meet its strategic goals. </p>
+            <p><b>Skills Demonstrated:</b></p>
+              <p>Excel, Pivot Tables, Charts, Data Visualisation</p>
+              <p></p>
+            </p>
+            <a href="#" class="btn btn-primary">Written Report</a>
+            <a href="https://github.com/stephenjbarratt/Hotel-Demand-Booking-Dataset/blob/main/Dashboard%20Test.pdf" class="btn btn-secondary">Dashboard</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/7.jpeg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
+            <a href="#" class="btn btn-primary">Written Report</a>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/3.jpeg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Need a Movie Recommendation? Dashboard to analyse movie ratings
+            </h5>
+            <p class="card-text">In this project I wanted to analyse real movie ratings, to decide what movies to watch.
+              <p><b>The Objective: </b> To analyse a dataset of 100,000 movie ratings from 943 Users on 1682 movies and create a dashboard to display the results of the highest recommended movies.</p>
+            <p><b>Skills Demonstrated:</b></p>
+              <p></p>
+            <a href="#" class="btn btn-primary">Dashboard</a>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section bg-white" id="skills">
+  <div class="container">
+    <h2 class="text-center">Skills</h2>
+    <div class="row">
+      <!-- Skill 1 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/1.png" class="card-img-top" alt="SQL">
+          <div class="card-body">
+            <h5 class="card-title">SQL</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 2 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/2.png" class="card-img-top" alt="Excel">
+          <div class="card-body">
+            <h5 class="card-title">Excel</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 3 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/5.png" class="card-img-top" alt="Microsoft Office">
+          <div class="card-body">
+            <h5 class="card-title">Microsoft Office 365</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/4.png" class="card-img-top" alt="Data Visualisation">
+          <div class="card-body">
+            <h5 class="card-title">Data Visualisation</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Certificates Section -->
+<section id="certificates" class="certificates-section bg-white" id="certificates">
+  <div class="container">
+    <h2 class="text-center">Courses & Certificates</h2>
+    <div class="row">
+      <!-- Certificate 1 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/certificates/3.png" class="card-img-top" alt="CompTIA Data+">
+          <div class="card-body">
+            <h5 class="card-title">CompTIA Data+ Certification</h5>
+            <a href="https://www.credly.com/badges/c2a8e156-ca8d-4b94-ac1a-b005675a1b61/public_url" class="btn btn-outline-primary">Link to Credly Badge</a>
+          </div>
+        </div>
+      </div>
+      <!-- Certificate 2 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/certificates/2.png" class="card-img-top" alt="Excel Pivot Tables">
+          <div class="card-body">
+            <h5 class="card-title">Pivot Table Mastery - XelPlus</h5>
+            <a href="https://www.credly.com/badges/3f38c523-f95f-4039-ab73-c6778dcc3347/public_url" class="btn btn-outline-primary">Link to Credly Badge</a>
+          </div>
+        </div>
+      </div>
+      <!-- Certificate 3 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/certificates/1.png" class="card-img-top" alt="Excel Essentials">
+          <div class="card-body">
+            <h5 class="card-title">Excel Essentials for the Real World - XelPlus</h5>
+            <a href="https://www.credly.com/badges/e9a805da-bcd8-4467-b475-f425ee93248f/public_url" class="btn btn-outline-primary">Link to Credly Badge</a>
+          </div>
+        </div>
+      </div>
+      <!-- Certificate 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/certificates/4.png" class="card-img-top" alt="Data Storytelling">
+          <div class="card-body">
+            <h5 class="card-title">CompTIA Data + Udemy</h5>
+            <a href="https://www.udemy.com/certificate/UC-a37a496b-7748-4035-a342-7affa96e8053/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" class="btn btn-outline-primary">Link to Udemy Certificate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Me Section -->
+<section id="contact" class="contact-section text-center text-white bg-dark">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <p><i class="fas fa-envelope"></i> stephenjbarratt@gmail.com</p>
+      </div>
+      <div class="col-lg-6">
+        <p><i class="fas fa-phone"></i> 07518868203</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="www.linkedin.com/in/stephenjbarratt" target="_blank">
+          <img src="icons/linkedin.png" alt="LinkedIn" class="social-icon">
+          LinkedIn
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://github.com/stephenjbarratt" target="_blank">
+          <img src="icons/github.png" alt="GitHub" class="social-icon">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Portfolio Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#certificates">Certificates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
